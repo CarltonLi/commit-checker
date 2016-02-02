@@ -45,8 +45,7 @@ else
 	against=4b825dc642cb6eb9a060e54bf8d69288fbee4904
 fi
 
-exec ~/src/work/opensource/commit-checker/android-check.py -t staged
-^D
+exec /path/to/commit-checker/android-check.py -t staged
     $ chmod a+x .git/hooks/pre-commit
 ```
 
