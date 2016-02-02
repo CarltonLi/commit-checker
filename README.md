@@ -50,5 +50,11 @@ exec ~/src/work/opensource/commit-checker/android-check.py -t staged
     $ chmod a+x .git/hooks/pre-commit
 ```
 
+Or:
+```
+    $ cd /path/to/working-directory
+    $ ln -s /path/to/commit-checker/pre-commit .git/hooks/pre-commit
+```
+
 You can also customize extra patterns in settings_local.py. Please refer to
 settings.py for more details.
